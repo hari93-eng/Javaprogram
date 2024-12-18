@@ -1,0 +1,19 @@
+package javaprograms;
+
+public class Staticvariable2 {
+	static int a=10,b=15;
+	static int mul=a*b;
+	static int div=a/b;
+	void display() {
+	}
+	
+
+public static void main (String args[]) {
+	
+	System.out.println("Multiplication of two number is:"+mul);
+	System.out.println("Division of two number is:"+div);
+	
+}
+	
+
+}
