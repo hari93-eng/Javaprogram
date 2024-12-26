@@ -1,0 +1,17 @@
+package javaprograms;
+import java.util.Scanner;
+public class Multiplicationtables 
+{
+public static void main(String ar[])
+{
+	int n,i;
+	Scanner sc=new Scanner(System.in);
+	System.out.print("Enter any number: ");
+	n=sc.nextInt();
+	System.out.println("Multiplication table of "+n);
+	for(i=1; i<=10; i++)
+	System.out.println(n+"*"+i+"="+n*i);
+	
+			
+}
+}
