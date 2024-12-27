@@ -1,0 +1,46 @@
+package javaprograms;
+
+class Hrmanager{
+
+	void EMPNO() {
+		int EMPNO=23444;
+	    int EMPID=14567;
+	    String POSITION="TEAM LEADER";
+		System.out.println("EMPNO: "+EMPNO);
+		System.out.println("EMPID: "+EMPID);
+		System.out.println("POSITION: "+POSITION);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+public class Employees extends Hrmanager {
+ 
+    String EMPNAME="PRAKASH";
+	String DEPARTMENTNAME="IT";
+	int EMPSALARY=100000;
+	public static void main(String[] args) {
+		
+		Employees a=new Employees();
+		
+		System.out.println("EMPNAME: "+a.EMPNAME);
+		System.out.println("DEPARTMENTNAME : "+a.DEPARTMENTNAME);
+		System.out.println("EMPSALARY: "+a.EMPSALARY);
+		
+		a.EMPNO();
+	
+		
+	}
+	
+	
+	
+}
