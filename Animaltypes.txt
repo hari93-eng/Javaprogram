@@ -1,0 +1,35 @@
+package javaprograms;
+
+class cat {
+	
+	
+	
+	void catno() {
+		int catno=2;
+	    String CATNAME="JERRY";
+		String CATSOUND1="MEOW";
+		String CATSOUND2="MEOW MEOW";
+            System.out.println("catno: "+catno);
+			System.out.println("CATNAME: "+CATNAME);
+			System.out.println("CATSOUND1: "+CATSOUND1);
+			System.out.println("CATSOUND2: "+CATSOUND2);
+		}
+		
+	}
+
+public class Animals extends cat {
+        int number=2;
+	    String Snake="kingcobra";
+	    String elephant="komban";
+	  	    public static void main(String[] args) {
+			
+			Animals a=new Animals();
+			System.out.println("number: "+a.number);
+		    System.out.println("Snake: "+a.Snake);
+		    System.out.println("elephant: "+a.elephant);
+	
+		
+		a.catno();
+}
+
+}
