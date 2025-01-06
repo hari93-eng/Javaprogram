@@ -1,0 +1,25 @@
+package javaprograms;
+import java.util.Scanner;
+public class Studentdeatailsusinginstance {
+
+	Scanner s = new Scanner(System.in);
+	String stdName,stdDept;
+	String stdAge;
+	
+	
+	public Studentdeatailsusinginstance() {
+		System.out.println("Enter the Student's Name: ");
+		stdName=s.nextLine();
+		System.out.println("Enter the Student's Age: ");
+		stdAge=s.nextLine();
+		System.out.println("Enter the Student's Department: ");
+		stdDept=s.nextLine();
+	}	
+		public static void main(String[] args) {
+	   Studentdeatailsusinginstance st = new Studentdeatailsusinginstance();
+	   System.out.println("The Following are the details of the specific student: ");
+	   System.out.println("Student Name = "+st.stdName);
+	   System.out.println("Student Department = "+st.stdDept);
+	   System.out.println("Student Age = "+st.stdAge);
+		}
+}
